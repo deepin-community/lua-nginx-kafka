@@ -1,0 +1,2 @@
+version=3
+https://github.com/doujiang24/lua-resty-kafka/releases .*/v([\d\.]*)\.tar.gz
