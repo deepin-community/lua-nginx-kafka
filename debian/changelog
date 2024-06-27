@@ -1,5 +1,48 @@
-template-repository (1.0-1) unstable; urgency=medium
+lua-nginx-kafka (0.07-1) unstable; urgency=medium
 
-  * Initial release
+  [ Ondřej Nový ]
+  * d/copyright: Use https protocol in Format field
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ ChangZhuo Chen (陳昌倬) ]
+  * New upstream release.
+  * Bump Standards-Version to 4.4.0.
+    * Set Rules-Requires-Root to no.
+  * Bump compat to 12.
+    * Use debhelper-compat.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 29 Sep 2019 21:32:44 +0800
+
+lua-nginx-kafka (0.06-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8.
+  * Bump compat to 10.
+  * Update Vcs-* fields.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 10 Oct 2016 17:49:31 +0800
+
+lua-nginx-kafka (0.05-4) unstable; urgency=medium
+
+  * Fix Vcs-Git.
+  * Update copyright.
+  * Use override rule to do resty to nginx conversion.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 20 Nov 2015 11:11:46 +0800
+
+lua-nginx-kafka (0.05-3) unstable; urgency=medium
+
+  * Patch to rename from resty to nginx.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 18 Nov 2015 14:32:26 +0800
+
+lua-nginx-kafka (0.05-2) unstable; urgency=medium
+
+  * Remove unused README.Debian.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 16 Nov 2015 09:01:50 +0800
+
+lua-nginx-kafka (0.05-1) unstable; urgency=low
+
+  * Initial release. Closes: #804951
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 13 Nov 2015 14:51:30 +0800

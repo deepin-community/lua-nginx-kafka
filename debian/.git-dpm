@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+3ce741664c34010116e4cce5b188dc668f95aafa
+3ce741664c34010116e4cce5b188dc668f95aafa
+3ce741664c34010116e4cce5b188dc668f95aafa
+3ce741664c34010116e4cce5b188dc668f95aafa
+lua-nginx-kafka_0.06.orig.tar.gz
+ee90e2520820906639a07dc18945acdbcc964f87
+14217
+debianTag="debian/%f%v"
+patchedTag="patched/%f%v"
+upstreamTag="upstream/%u"
